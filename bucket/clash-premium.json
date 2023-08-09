@@ -33,10 +33,6 @@
             ]
         }
     },
-    "persist": [
-        "",
-        ""
-    ],
     "checkver": {
         "url": "https://github.com/Dreamacro/clash/releases/tag/premium",
         "regex": "<h1 data-view-component=\"true\" class=\"d-inline mr-3\">Premium ([\\d.]+)</h1>"
