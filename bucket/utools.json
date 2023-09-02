@@ -63,8 +63,8 @@
     ],
     "persist": "data",
     "checkver": {
-        "url": "https://res.u-tools.cn/version2/latest.yml",
-        "regex": "version: ^[\\w\\.\\-+_]+$"
+        "url": "https://u.tools",
+        "regex": "version: 'V(\\d\\.\\d\\.\\d)'"
     },
     "autoupdate": {
         "architecture": {
