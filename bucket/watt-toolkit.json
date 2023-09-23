@@ -1,0 +1,31 @@
+{
+    "description": "",
+    "homepage": "https://steamapp.net",
+    "license": "",
+    "version": "3.0.0-rc.1",
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/BeyondDimension/SteamTools/releases/download/3.0.0-rc.1/Steam++_v3.0.0-rc.1_win_x64.7z",
+            "hash": "sha256:AB9E678E1290B71C14EC8678FA1F5937E6CB2F8FA54038EFC9705031C8C6D1D5"
+        }
+    },
+
+    "shortcuts": [
+        [
+            "Steam++.exe",
+            "Watt Toolkit"
+        ]
+    ],
+
+    "checkver": {
+        "github": "https://github.com/BeyondDimension/SteamTools"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/BeyondDimension/SteamTools/releases/download/$version/Steam++_v$version_win_x64.7z"
+            }
+        }
+    }
+}
